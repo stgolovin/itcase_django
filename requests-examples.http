@@ -1,0 +1,31 @@
+# примеры API-запросов
+
+@baseUrl = http://127.0.0.1:8000/
+
+#Получить список всех товаров;
+GET {{baseUrl}}/good
+Content-Type: application/json
+
+###
+
+#Получить подробную информацию о товаре;
+GET {{baseUrl}}/good/7
+Content-Type: application/json
+
+###
+
+#Фильтрация товара по названию;
+GET {{baseUrl}}/good/?search=burger
+Content-Type: application/json
+
+###
+
+#Сортировка по id (по убыванию);
+GET {{baseUrl}}good/?ordering=-id
+Content-Type: application/json
+
+###
+
+#Сортировка по цене (по возрастанию);
+GET {{baseUrl}}good/?ordering=base_price
+Content-Type: application/json

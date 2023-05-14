@@ -1,0 +1,102 @@
+{
+    "fixtures": [
+        {
+            "model": "itcase.Good",
+            "data": [
+                {
+                    "id": 5,
+                    "name": "burger",
+                    "description": "very fresh one",
+                    "base_price": "50.00",
+                    "sort_order": 0
+                },
+                {
+                    "id": 6,
+                    "name": "sandwich",
+                    "description": "crispy n fresh",
+                    "base_price": "70.00",
+                    "sort_order": 0
+                },
+                {
+                    "id": 7,
+                    "name": "pizza",
+                    "description": "",
+                    "base_price": "60.00",
+                    "sort_order": 0
+                }
+            ],
+            "model": "itcase.Image",
+            "data": [
+                {
+                    "good": 5,
+                    "file": "http://127.0.0.1:8000/images/436959869-shvedskij-burger-600x600.jpg",
+                    "caption": "yummy burger",
+                    "sort_order": 0
+                },
+                {
+                    "good": 6,
+                    "file": "http://127.0.0.1:8000/images/marinated-chicken-club-sandwich-1970-1.jpeg",
+                    "caption": "with herbs",
+                    "sort_order": 0
+                },
+                {
+                    "good": 6,
+                    "file": "http://127.0.0.1:8000/images/club-sandwich-1-9-500x500.jpg",
+                    "caption": "with meat",
+                    "sort_order": 0
+                },
+                {
+                    "good": 7,
+                    "file": "http://127.0.0.1:8000/images/20220211142754-margherita-9920.jpg",
+                    "caption": "nice Italian pizza",
+                    "sort_order": 0
+                }
+            ],
+            "model": "itcase.Parameter",
+            "data": [
+                {
+                    "good": 5,
+                    "name": "size",
+                    "value": "small",
+                    "price": "0.00",
+                    "sort_order": 0
+                },
+                {
+                    "good": 5,
+                    "name": "size",
+                    "value": "big",
+                    "price": "100.00",
+                    "sort_order": 0
+                },
+                {
+                    "good": 6,
+                    "name": "size",
+                    "value": "small",
+                    "price": "0.00",
+                    "sort_order": 0
+                },
+                {
+                    "good": 6,
+                    "name": "size",
+                    "value": "large",
+                    "price": "70.00",
+                    "sort_order": 0
+                },
+                {
+                    "good": 7,
+                    "name": "size",
+                    "value": "small",
+                    "price": "20.00",
+                    "sort_order": 0
+                },
+                {
+                    "good": 7,
+                    "name": "size",
+                    "value": "big",
+                    "price": "50.00",
+                    "sort_order": 0
+                }
+            ]
+        }
+    ]
+}
